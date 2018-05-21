@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack-cli",
     "watch": "webpack-cli --watch",
-    "eslint": "eslint ./**/*.js",
+    "eslint": "eslint ./src/*.js",
     "csslint": "stylelint ./**/*.css"
   },
   "author": "",
@@ -21,7 +21,12 @@
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
   },
